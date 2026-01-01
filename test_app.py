@@ -1,4 +1,4 @@
-from app import calculate_grade
+from project1.app_app import calculate_grade
 
 def test_grade_S():
     assert calculate_grade(95) == "S"
